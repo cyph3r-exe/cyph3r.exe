@@ -1,0 +1,118 @@
+body{
+    background-image: url(BACKGROUND.gif);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:scroll;
+}
+h1{
+    font-family: 'Inconsolata';
+    text-align: center;
+    color: rgb(219, 246, 255);
+    font-size: 72px;
+    background: rgba(46, 49, 49, 0.1);
+    padding: 10px;
+    margin: auto;
+    
+}
+h1:hover{
+    font-family: 'Inconsolata';
+    text-align: center;
+    color: rgb(134, 0, 206);
+    font-size: 72px;
+    background: rgba(60, 68, 68, 0.1);
+    padding: 10px;
+    margin: auto;
+    
+}
+h2{
+    font-family:'Inconsolata';
+    text-align: center;
+    color:white;
+    font-size: 24px;
+    background: rgba(46, 49, 49, 0.1);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+h2:hover{
+    font-family:'Inconsolata';
+    text-align: center;
+    color:rgb(253, 236, 236);
+    font-size: 24px;
+    background: rgba(134, 0, 206);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+div{
+    width: 800px;
+    height: 600px;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3.5%;
+}
+.box-img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    padding-right: 100px;
+    padding-top: 50px;
+
+}
+
+p{
+    font-family: monospace;
+    font-size: 24px;
+    background: rgba(46, 49, 49, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2.5%;
+}
+
+
+.contact{
+    color: lightgreen;
+    font-size: 20px
+}
+.content-body{
+    width: 600px;
+    height: 15px;
+    padding: 30px;
+    color: greenyellow;
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5%;
+}
+.content-body-fm {
+            padding: 20px;
+    color: royalblue;
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5%;
+}
+.content-body:hover{
+    color: rgb(134, 0, 206);
+    
+}
+.head{
+    color:snow;
+    font-family:monospace;
+}
+.head:hover{
+    color:antiquewhite;
+}
+.creators-list{
+    color: lightgrey;
+    font-size: 20px;
+}
+.creators-list:hover{
+    color: rgb(134, 0, 206);
+    font-size: 20px;
+}
+.creators-list-para{
+    color: lightgrey;
+    font-size: 20px;
+}
