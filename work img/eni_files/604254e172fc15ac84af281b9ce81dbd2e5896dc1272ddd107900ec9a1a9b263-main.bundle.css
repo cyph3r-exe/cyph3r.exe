@@ -1,0 +1,1 @@
+.navbar.has-js{position:relative}.floating-header header.navbar{position:sticky;transition:transform .2s cubic-bezier(.33,1,.68,1)}header.navbar.hide{transform:translate3d(0,-100%,0)}

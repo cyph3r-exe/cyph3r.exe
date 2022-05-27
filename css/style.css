@@ -1,0 +1,123 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation bar */
+
+nav.r-nav {
+  background: transparent;
+  padding: 30px 0px;
+  transition: 0.5s all;
+  align-items: center;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  color: rgb(177, 177, 177) !important;
+  margin-left: 40px;
+}
+
+nav .navbar-brand:hover {
+  font-size: 30px;
+  color: rgb(255, 255, 255) !important;
+  margin-left: 40px;
+}
+
+nav .navbar-nav li a {
+  color: rgb(143, 143, 143) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+nav .navbar-nav li a:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: underline;
+  transition: 0.7s all;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.nav-link[aria-current="page"] {
+  text-decoration: underline;
+}
+
+nav .navbar-nav li {
+  margin-left: 30px;
+}
+
+/*Header Section */
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 700px;
+  color: #fff;
+}
+
+.content-box h4 {
+  font-size: 30px;
+}
+
+.content-box h1 {
+  font-size: 52px;
+}
+
+.content-box a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box a:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.5s all;
+}
+
+.content-box p {
+  color: #fff;
+}
+
+/*Footer Section */
+
+footer {
+  position: fixed;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer .r-icon a {
+  font-size: 25px;
+  color: #848484;
+  padding: 5px;
+}
+
+footer .r-icon a:hover {
+  color: #eee;
+  transition: 0.5s all;
+  font-size: 35px;
+}

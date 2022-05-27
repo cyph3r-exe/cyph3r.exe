@@ -1,0 +1,25 @@
+.icon {
+    --size: 24px;
+    width: var(--size);
+    height: var(--size);
+    fill: currentColor;
+}
+
+.icon-wrapper {
+    --size: 24px;
+    width: var(--size);
+    height: var(--size);
+    padding: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-wrapper .icon {
+    width: 100%;
+    height: 100%;
+}
+
+.icon-wrapper.p-15 {
+    padding: 15px !important;
+}
